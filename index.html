@@ -6,19 +6,20 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="main-container">
-    <div class="matrix-details">
+    <h1></h1>
+    <header class="matrix-details">
       <img class="matrix-img" src="./eisenhower-matrix.jpg">
       <a class="info-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main-page">
-      <p id="add-task-section">
+    </header>
+    <main class="main-page">
+      <section id="add-task-section">
         <label class="accent-text new-task-label" for="new-task">Add Item</label>
         <div class="new-task-container">
           <input id="new-task"class="task-name task-name-input" type="text">
           <button class="primary-button">Add</button>
         </div>
-      </p>
-      <h3 class="accent-text">Todo</h3>
+      </section>
+      <h2 class="accent-text">Todo</h2>
       <ul id="incomplete-tasks">
         <li class="task-item">
           <input type="checkbox" class="complete-task-toggle">
@@ -39,7 +40,7 @@
           </button>
         </li>
       </ul>
-      <h3 class="accent-text">Completed</h3>
+      <h2 class="accent-text">Completed</h2>
       <ul id="completed-tasks">
         <li class="task-item">
           <input type="checkbox" class="complete-task-toggle" checked>
@@ -51,7 +52,7 @@
           </button>
         </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
