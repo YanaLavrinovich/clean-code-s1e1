@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-  .matrix-details { text-align: center;
-}
+  .matrix-details { 
+    text-align: center;
+  }
 }
 .main-page {
   display: block;
